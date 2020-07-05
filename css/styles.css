@@ -1,47 +1,55 @@
-body{
+body {
   font-family: 'Bangers', cursive;
   color: #fa26a0;
   text-align: center;
 }
+
 .centered {
   position: absolute;
   top: 45%;
   left: 10%;
   color: #eeeeee;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-.navbar{
+.navbar {
   background-color: #f4f6ff;
 }
-.fas{
+
+.fas {
   color: #fa26a0;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: #fa26a0 !important;
 }
-.heading{
-padding: 2rem;
-margin: 3rem auto 3rem;
-font-size: 4rem;
+
+.heading {
+  padding: 2rem;
+  margin: 3rem auto 3rem;
+  font-size: 4rem;
 }
-.row{
+
+.row {
   margin: 0 2rem 0 2rem;
 }
-.worlds{
+
+.worlds {
   text-decoration: none;
   background-color: #e7305b;
 }
-.wrld{
-  margin: 1rem;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    padding: 0;
-    border-radius: 10px;
-    transition: transform .5s;
+
+.wrld {
+  margin: 1rem 0 1rem;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding: 0;
+  border-radius: 10px;
+  transition: transform .5s;
 }
-.wrld:hover{
+
+.wrld:hover {
   box-shadow: 4px 4px 8px #fa26a0;
   transform: scale(1.11);
 }
