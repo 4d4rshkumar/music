@@ -48,7 +48,12 @@ body {
   border-radius: 10px;
   transition: transform .5s;
 }
-
+.k{
+  text-decoration: none;
+  color:black;
+  margin-right: 50px;
+  margin-left: 50px;
+}
 .wrld:hover {
   box-shadow: 4px 4px 8px #fa26a0;
   transform: scale(1.11);
